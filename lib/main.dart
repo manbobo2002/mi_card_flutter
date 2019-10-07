@@ -15,7 +15,27 @@ class MyApp extends StatelessWidget {
             children: <Widget>[
               CircleAvatar(
                 radius: 50.0,
-                backgroundColor: Colors.red,
+                backgroundImage: AssetImage('images/i_am_rich_app_icon.png'),
+              ),
+              Text(
+                'i_am_rich',
+                style: TextStyle(
+                  fontFamily: 'Pacifico',
+                  fontSize:40.0,
+                  color: Colors.white,
+                  fontWeight: FontWeight.bold,
+
+                )
+              ),
+              Text(
+                'FLUTTER DEVELOPER',
+                style: TextStyle(
+                  fontFamily: 'Source Sans Pro',
+                  color: Colors.teal[100],
+                  fontSize: 20.0,
+                  letterSpacing: 2.5,
+                  fontWeight:  FontWeight.bold,
+                )
               ),
             ],
           ),
